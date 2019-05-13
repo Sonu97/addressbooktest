@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Webdriver]">
+  <test thread-count="5" name="test(failed)">
+    <classes>
+      <class name="TestNG.addressbook">
+        <methods>
+          <include name="verifyaddbook"/>
+          <include name="launch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- TestNG.addressbook -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Webdriver] -->
